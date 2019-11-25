@@ -3,8 +3,7 @@
 ## Deliverables
 
 You are building an app for a gym. But this is not just any gym. It has many
-locations and many trainers. Each trainer has clients that can work out of any
-location provided that they have a trainer.
+locations and many trainers. Each trainer has clients that can work out of any location provided that they have a trainer.
 
 - your models are locations, trainers and clients
   - a location has many trainers
