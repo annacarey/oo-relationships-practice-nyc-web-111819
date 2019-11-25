@@ -24,7 +24,16 @@ class Location
         end 
     end 
 
+    def clients
+        sessions.map do |session|
+            session.client
+        end 
+    end 
+
+
     def self.least_clients 
-        
+        self.all.min_by do |location|
+            location.clients.length
+        end
     end 
 end 

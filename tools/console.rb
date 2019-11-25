@@ -30,9 +30,11 @@ lauri.assign_trainer(trainer_hayden)
 
 david = Client.new("David")
 david.assign_trainer(trainer_julia)
-session1 = Session.new(trainer_julia, williamsburg)
-session2 = Session.new(trainer_julia, les)
-session3 = Session.new(trainer_hayden, williamsburg)
+session1 = Session.new(trainer_julia, williamsburg, anna)
+session2 = Session.new(trainer_julia, les, anna)
+session3 = Session.new(trainer_hayden, williamsburg, lauri)
+session4 = Session.new(trainer_hayden, williamsburg, lauri)
+
 
 # Bakery 
 # bakery = Bakery.new("bakery")
